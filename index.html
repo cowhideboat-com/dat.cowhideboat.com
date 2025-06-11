@@ -1,69 +1,148 @@
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAT 筆記網站</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAT 筆記網站</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>DAT 筆記網站</h1>
+    <p>在這裡，你可以找到各課程的筆記</p>
+  </header>
 
-    <header>
-        <h1>DAT 筆記網站</h1>
-        <p>在這裡，你可以找到各課程的筆記</p>
-    </header>
+  <main class="container">
+    <section class="notes">
+      <h2>選擇課程筆記</h2>
+      <!-- 用 div 來顯示筆記數量 -->
+      <div id="noteCount">目前共有 0 個筆記</div>
+      <div class="grid">
+        <button onclick="location.href='https://dat.cowhideboat.top/20240910dat001.png';">
+          課程 1.1.1: 視覺設計元素的造形
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20240916dat001.png';">
+          課程 1.1.2: 構成
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20240917dat001.png';">
+          課程 1.1.3: 組織原理
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20240923dat001.png';">
+          課程 1.1.4: 顏色
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20240924dat001.png';">
+          課程 1.1.5&6: 空間＋質感
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20240930dat001.png';">
+          課程 1.2.1+2+3: 設計與科技的發展＋設計發展過程的原則＋產品設計週期
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241007dat001.png';">
+          課程 1.2.4-1: 設計發展過程(設計摘要及研究)
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241105dat001.png';">
+          課程 1.2.4: 三四釐清問題及概念化
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241111dat001.png';">
+          課程 1.2.5-6: 實踐+評鑑
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241112dat001.png';">
+          課程 1.3.1: 改良設計
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241118dat001.png';">
+          課程 1.3.2: 提昇創意的思考方式
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241119dat001.png';">
+          課程 1.3.3: 垂直思考
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241125dat001.png';">
+          課程 1.3.4.1: 水平思考-腦力激盪法及腦圖
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241126dat001.png';">
+          課程 1.3.4.3: 類比+改造及重新釐定設計問題
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241202dat001.png';">
+          課程 1.4(1-3): 管理-定義-計劃
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241203dat001.png';">
+          課程 1.4(4-7): 項目管理活動-設定目標-規劃執行-過程
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241208dat001.png';">
+          課程 1.4(8-9): 團隊工作-檢討
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20241209dat001.png';">
+          課程 1.5(1-3): 設計師及工程師的角色及相似之處
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250210dat001.png';">
+          課程 1.5.4: 線-線上線下
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250211dat001.png';">
+          課程 2.1.1: 設計摘要的內容
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250217dat001.png';">
+          課程 2.1.2: 設計需求
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250218dat001.png';">
+          課程 2.1.5: 深入了解問題
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250224dat001.png';">
+          課程 2.1.8: 分析問題
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250225dat001.png';">
+          課程 2.2.1: 確定問題及解決方法
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250303dat001.png';">
+          課程 2.2.4: 隨機方法
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250304dat001.png';">
+          課程 2.3.5-7: 人與環境因素
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250310dat001.png';">
+          課程 2.3.8-9: 設計過程和人體工程學
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250318dat001.png';">
+          課程 2.4.1: 甚麼是產品標準
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250407dat001.pdf';">
+          課程 2.4.3: 國際和區域標準
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250428dat001.png';">
+          課程 2.4.4: 產品製造商對法例的關注
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250429dat001.png';">
+          課程 2.5.1: 設計過程中的階段
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250506dat001.png';">
+          課程 2.5.4: 設計意念評鑑
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250513dat001.png';">
+          課程 3.1: 設計項目演示及匯報
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250519dat001.png';">
+          課程 3.2.1-2: 視像表達
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250520dat001.png';">
+          課程 3.2.4: 透視圖
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250526dat001.png';">
+          課程 3.2.5: 強化設計品圖像的視覺立體感的技法
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/24-25t3-3-1dat001.png';">
+          課程 3.3.1(1-3): 實物模型
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250604dat001.png';">
+          課程 考試前溫習1: 圖形簡化
+        </button>
+        <button onclick="location.href='https://dat.cowhideboat.top/20250604dat002.png';">
+          課程 考試前溫習2: 材料探究-亞加力膠片
+        </button>
+      </div>
+    </section>
+  </main>
 
-    <main class="container">
-        <section class="notes">
-            <h2>選擇課程筆記</h2>
-            <p id="noteCount">目前共有 <span>0</span> 個筆記</p>
-            <div class="grid">
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20240910dat001.png';">課程 1.1.1: 視覺設計元素的造形</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20240916dat001.png';">課程 1.1.2: 構成</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20240917dat001.png';">課程 1.1.3: 組織原理</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20240923dat001.png';">課程 1.1.4: 顏色</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20240924dat001.png';">課程 1.1.5&6: 空間＋質感</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20240930dat001.png';">課程 1.2.1+2+3: 設計與科技的發展＋設計發展過程的原則＋產品設計週期</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241007dat001.png';">課程 1.2.4-1: 設計發展過程(設計摘要及研究)</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241105dat001.png';">課程 1.2.4: 三四釐清問題及概念化</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241111dat001.png';">課程 1.2.5-6: 實踐+評鑑</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241112dat001.png';">課程 1.3.1: 改良設計</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241118dat001.png';">課程 1.3.2: 提昇創意的思考方式</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241119dat001.png';">課程 1.3.3: 垂直思考</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241125dat001.png';">課程 1.3.4.1: 水平思考-腦力激盪法及腦圖</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241126dat001.png';">課程 1.3.4.3: 類比+改造及重新釐定設計問題</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241202dat001.png';">課程 1.4(1-3): 管理-定義-計劃</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241203dat001.png';">課程 1.4(4-7): 項目管理活動-設定目標-規劃執行-過程</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241208dat001.png';">課程 1.4(8-9): 團隊工作-檢討</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20241209dat001.png';">課程 1.5(1-3): 設計師及工程師的角色及相似之處</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250210dat001.png';">課程 1.5.4: 線-線上線下</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250211dat001.png';">課程 2.1.1: 設計摘要的內容</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250217dat001.png';">課程 2.1.2: 設計需求</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250218dat001.png';">課程 2.1.5: 深入了解問題</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250224dat001.png';">課程 2.1.8: 分析問題</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250225dat001.png';">課程 2.2.1: 確定問題及解決方法</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250303dat001.png';">課程 2.2.4: 隨機方法</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250304dat001.png';">課程 2.3.5-7: 人與環境因素</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250310dat001.png';">課程 2.3.8-9: 設計過程和人體工程學</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250318dat001.png';">課程 2.4.1: 甚麼是產品標準</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250407dat001.pdf';">課程 2.4.3: 國際和區域標準</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250428dat001.png';">課程 2.4.4: 產品製造商對法例的關注</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250429dat001.png';">課程 2.5.1: 設計過程中的階段</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250506dat001.png';">課程 2.5.4: 設計意念評鑑</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250513dat001.png';">課程 3.1: 設計項目演示及匯報</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250519dat001.png';">課程 3.2.1-2: 視像表達</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250520dat001.png';">課程 3.2.4: 透視圖</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250526dat001.png';">課程 3.2.5: 強化設計品圖像的視覺立體感的技法</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/24-25t3-3-1dat001.png';">課程 3.3.1(1-3): 實物模型</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250604dat001.png';">課程 考試前溫習1: 圖形簡化</button>
-                <button onclick="window.location.href='https://dat.cowhideboat.top/20250604dat002.png';">課程 考試前溫習2: 材料探究-亞加力膠片</button>
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>© 2025 dat.cowhideboat.com. 版權所有.</p>
-    </footer>
+  <footer>
+    <p>© 2025 dat.cowhideboat.com. 版權所有.</p>
+  </footer>
+  
+  <script src="script.js"></script>
 </body>
 </html>
