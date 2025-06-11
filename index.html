@@ -14,9 +14,7 @@
 
   <main class="container">
     <section class="notes">
-      <h2>選擇課程筆記</h2>
-      <!-- 用 div 來顯示筆記數量 -->
-      <div id="noteCount">目前共有 0 個筆記</div>
+      <p id="noteCount"></p>
       <div class="grid">
         <button onclick="location.href='https://dat.cowhideboat.top/20240910dat001.png';">
           課程 1.1.1: 視覺設計元素的造形
@@ -146,3 +144,10 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let noteCount = document.querySelectorAll(".grid button").length;
+        document.getElementById("noteCount").textContent = `目前共有 ${noteCount} 個筆記`;
+    });
+</script>
